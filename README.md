@@ -1,23 +1,34 @@
-# Claude Corps Fellowship — iPhone 17 Pro Max Countdown Lock Screen Studio
+# Professional Development Countdown Lock Screen
 
-**Live Demo (GitHub Pages):** [https://kelsey-martinez29.github.io/claude-corps-countdown-lockscreen/](https://kelsey-martinez29.github.io/claude-corps-countdown-lockscreen/)
+**Interactive career milestone planner and iPhone wallpaper generator**
 
-An interactive backward countdown planner, **1320 × 2868 iPhone 17 Pro Max Lock Screen PNG generator**, and **38-task / Scouting America Programming Merit Badge tracker** built to plan for the [Claude Corps Fellowship](https://job-boards.greenhouse.io/claudecorps/jobs/4402649009?gh_src=6qa26z9j9us) application alongside teaching the [Scouting America Programming Merit Badge](https://www.scouting.org/merit-badges/programming/).
+This project turns fellowship preparation and community teaching milestones into a visual countdown, checklist, and exportable lock screen.
 
-## Project Reflection
+## Features
 
-> I planned for my early Claude Corps Fellowship application deadline. Gemini asked three questions about my weekly hours, BSA workshop slot, and personal blackout days, then worked backward to turn 38 tasks into simple T-minus milestones on a custom iPhone 17 Pro Max countdown lock screen with daily calendar alerts. I learned that aligning my AI Tutor build with BSA Programming Merit Badge lessons lets my tech project and community teaching power each other.
+- **Interactive T-minus countdown** with a 10-checkpoint roadmap.
+- **iPhone 17 Pro Max wallpaper preview** with a Dynamic Island-inspired countdown.
+- **1320 × 2868 PNG export** for a custom lock screen.
+- **Four color themes:** Obsidian Teal, Claude Amber, Troop 99 Emerald, and Cyber Indigo.
+- **38-task professional development checklist** organized into five phases.
+- **Programming Merit Badge tracker** for six requirements.
+- **Local progress saving** using browser `localStorage`.
+- **Calendar export** in `.ics` format with reminder alerts.
 
-## Key Features
+## Preview screenshot
 
-* **Live iPhone 17 Pro Max Lock Screen Preview**: Features a Dynamic Island `T-Minus` indicator, live countdown clock, [Scouting America Programming Merit Badge](https://www.scouting.org/merit-badges/programming/) progress widget (`0/6 Reqs`), and an interactive 10-checkpoint T-minus roadmap (`T-34` down to `T-0`).
-* **Native 1320 × 2868 PNG Wallpaper Export**: Renders a high-resolution iPhone 17 Pro Max wallpaper with top iOS clock clearance and four custom colorways (*Obsidian Teal*, *Claude Amber*, *Troop 99 Emerald*, and *Cyber Indigo*).
-* **38-Task & 6-Requirement Progress Tracker**: Tracks all 5 phases of the [Claude Corps Fellowship](https://job-boards.greenhouse.io/claudecorps/jobs/4402649009?gh_src=6qa26z9j9us) preparation checklist alongside the 6 official [Scouting America Programming Merit Badge](https://www.scouting.org/merit-badges/programming/) requirements with automatic `localStorage` persistence.
-* **iOS Calendar & Reminders (`.ics`) Export**: Generates a downloadable `.ics` calendar file with `VALARM` notifications for all 10 T-minus checkpoints.
+A verified screenshot of the app has not yet been added. Place a real screenshot at `docs/images/homepage.png`, then embed it with:
 
-## Quick Setup & GitHub Pages Deployment
+`![Countdown lock screen studio](docs/images/homepage.png)`
 
-1. Create a new **Public** repository named `claude-corps-countdown-lockscreen` on your [GitHub profile (`@kelsey-martinez29`)](http://github.com/kelsey-martinez29).
-2. Upload `index.html` (renamed from `fellowship_countdown_lockscreen.html`) and `README.md` to the root of the `main` branch.
-3. In your repository on GitHub, go to **Settings** → **Pages**, set **Source** to **Deploy from a branch**, select **`main`** and **`/ (root)`**, and click **Save**.
-4. Your live interactive app will publish at `https://kelsey-martinez29.github.io/claude-corps-countdown-lockscreen/`.
+## How to run
+
+This repository contains a standalone `index.html`. Open it in a modern browser to use the planner.
+
+## GitHub Pages
+
+To publish this repository, enable GitHub Pages under **Settings → Pages**, select **Deploy from a branch**, then choose the default branch and root folder. A previous README referenced a differently named repository's Pages URL; that link is not assumed to be a working deployment of this repository.
+
+## Why I built it
+
+I wanted a visual way to plan backward from career deadlines while tracking preparation for the Claude Corps Fellowship and my work teaching the Scouting America Programming Merit Badge. I used AI-assisted planning to turn milestones into manageable checkpoints and an exportable mobile wallpaper.
